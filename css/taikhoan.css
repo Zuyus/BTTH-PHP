@@ -1,0 +1,46 @@
+        body{
+            /* cho phần body sát với viền trang web  */
+            padding:0px;
+            margin:0px;
+        }
+        .account{
+            /* chiều cao khhung lớn  */
+            height: 250px;
+            /* tạo độ rộng từ khung đến viền trang web  */
+            margin: 20px ;
+            border: 1px dashed green;
+            border-radius: 10px;
+        }
+        h2{
+            padding: 20px 20px 0px 20px;
+            color: black;
+            text-align: center;
+        }
+        .form{
+            height: 30%;
+            width: 70%;
+            background-color:rgb(255,255, 255);
+            margin: auto;
+            padding: 10px;
+            border: 0px solid;
+        }
+        input{
+            border: 1px dashed rosybrown;
+            border-radius: 4px;
+        }
+        .infor{
+            float:left;
+        }
+        .inser{
+            float:right;
+        }
+        @media only screen and (min-width: 500px){
+            .form{
+                width: 70%;
+            }
+        }
+        @media only screen and (min-width: 700px){
+            .form{
+                width: 40%;
+            }
+        }
